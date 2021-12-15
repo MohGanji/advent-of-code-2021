@@ -1,8 +1,3 @@
-from sys import stdin
-from collections import defaultdict
-
-cov = defaultdict(int)
-
 nums = list(map(int, input().split(',')))
 DAYS = 80
 for _ in range(DAYS):
